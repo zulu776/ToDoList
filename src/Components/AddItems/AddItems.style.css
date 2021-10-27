@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerAddItems {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.inputItems {
+    
+    width: 50%;
+}
+
+.buttonItems {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    width: 10%;
+    border: none;
+}

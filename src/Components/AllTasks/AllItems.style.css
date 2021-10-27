@@ -1,0 +1,17 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+
+.allItems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-all {
+    flex-wrap: wrap;
+}
+
