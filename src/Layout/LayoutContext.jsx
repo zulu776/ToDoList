@@ -85,7 +85,7 @@ const LayoutContext = ({children}) => {
 
             </Menu>
           </Sider>
-          <Layout className="site-layout">
+          <Layout className={collapsed ? "site-layout" : "site-layout-close"}>
             
             
             

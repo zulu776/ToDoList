@@ -21,7 +21,7 @@ const ToCompleteItems = ({title,status,index}) => {
             const updateItems = [...allItems];
             updateItems[index].status = true;
             setAllItems(updateItems);
-            const completedItems = [...completed, allItems.slice(index,(index + 1))];
+            const completedItems = [...completed, ...allItems.slice(index,(index + 1))];
             setCompleted(completedItems);
             const deleteToComplete = [...toComplete];
             deleteToComplete.splice(index, 1);

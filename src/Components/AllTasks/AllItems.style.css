@@ -15,3 +15,8 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 500px) {
+    .allItems {
+        flex-direction: column;
+    }
+}
