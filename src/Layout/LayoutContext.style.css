@@ -17,8 +17,13 @@
     background: white;
   }
 
+  .site-layout-close .site-layout-close-background {
+    background: white;
+  }
 
- .site-layout-close {
-   position: absolute;
-   left: -120%;
- }
+  @media (max-width: 500px) {
+    .site-layout-close {
+      position: absolute;
+      left: -120%;
+    }
+  }

@@ -85,10 +85,9 @@ const LayoutContext = ({children}) => {
 
             </Menu>
           </Sider>
-          <Layout className={collapsed ? "site-layout" : "site-layout-close"}>
-            
-            
-            
+          <Layout 
+          className={collapsed ? "site-layout" : "site-layout-close"}
+          >
             <Content style={{ margin: '0 16px' }}>
               <Breadcrumb style={{ margin: '16px 0' }}>
                 <Breadcrumb.Item><AddItems /></Breadcrumb.Item>

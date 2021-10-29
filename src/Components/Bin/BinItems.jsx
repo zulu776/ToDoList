@@ -18,10 +18,14 @@ const BinItems = ({title,status,index}) => {
     }
 
     return (
-        <div>
+        <div className="separate">
             <div className="allItems">
-                <h1 className="text-all">{title}</h1> 
-                <Button size="small" type="primary" onClick={()=>Eliminate()}>
+                <h1 className="text-all1">{title}</h1> 
+                <Button 
+                className="text-all2"
+                size="big" 
+                ghost="true"
+                onClick={()=>Eliminate()}>
                     Eliminate
                 </Button>
             </div>
